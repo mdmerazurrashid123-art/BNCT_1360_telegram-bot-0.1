@@ -1,6 +1,13 @@
+const http = require("http");
+
+http.createServer((req, res) => {
+  res.write("Bot is alive");
+  res.end();
+}).listen(process.env.PORT || 3000);
+
 const TelegramBot = require("node-telegram-bot-api");
 
-const token = "8564760775:AAFrv7hwZcqffe39vHFlLIZRkyxNAtotrAg"; // 🔴 এখানে তোমার bot token বসাও
+const token = "8564760775:AAFo9ppjEKJRnhqxggTPOhEzG2vpt4BhaAE"; // 🔴 এখানে তোমার bot token বসাও
 
 // 🔵 Main group (যেখানে ছবি পাঠাবে)
 const MAIN_GROUP_ID = -1003753627175;
