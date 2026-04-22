@@ -10,7 +10,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const token = "8564760775:AAFo9ppjEKJRnhqxggTPOhEzG2vpt4BhaAE"; // 🔴 এখানে তোমার bot token বসাও
 
 // 🔵 Main group (যেখানে ছবি পাঠাবে)
-const MAIN_GROUP_ID = -1003753627175;
+const MAIN_GROUP_ID = -1003978339511;
 
 // 🟢 Personal/log group (যেখানে ছবি যাবে)
 const LOG_GROUP_ID = -1003921095881;
